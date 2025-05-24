@@ -102,3 +102,96 @@ h6 {
 }
 
 /* general styling */
+
+body {
+	font-family: var(--ff-primary);
+}
+
+.background__wrapper {
+	position: absolute;
+	z-index: -1;
+}
+
+.pod__background img {
+	height: 812px;
+}
+
+.pod__overlay {
+	position: absolute;
+	inset: 0;
+	background-color: rgba(26, 29, 43, 0.9);
+	z-index: 1;
+}
+
+.pod__pattern {
+	display: none;
+}
+
+.pod {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	min-height: 812px;
+	flex-direction: column;
+}
+
+.pod__logo {
+	margin-bottom: 3rem;
+}
+
+.pod__title {
+	color: var(--clr-white);
+	font-size: 2.3rem;
+	line-height: var(--lh-1);
+	font-weight: 100;
+	padding-inline: 1.5rem;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+}
+
+.pod__title span {
+	color: var(--clr-green);
+}
+
+.pod__text {
+	color: var(--clr-blue-300);
+	font-weight: 100;
+	font-size: var(--fs-3);
+	padding-inline: 2rem;
+	margin-bottom: 2.5rem;
+}
+
+.pod__companies {
+	display: flex;
+	margin-inline: 2rem;
+	gap: 0.9rem;
+	margin-bottom: 2.5rem;
+}
+
+.pod__company {
+	height: 0.9rem;
+}
+
+.form__container input {
+	border-radius: 30px;
+	border: none;
+	width: 19.5rem;
+	height: 2.75rem;
+	background-color: hsl(225, 26%, 24%);
+	color: var(--clr-blue-300);
+	font-weight: 600;
+	padding-left: 2rem;
+	margin-bottom: 0.5rem;
+}
+
+.form__container button {
+	border-radius: 30px;
+	border: none;
+	width: 19.5rem;
+	height: 2.75rem;
+	background-color: var(--clr-green);
+	color: var(--clr-blue-950);
+	font-weight: 700;
+	font-size: 0.92rem;
+}
