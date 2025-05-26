@@ -195,3 +195,97 @@ body {
 	font-weight: 700;
 	font-size: 0.92rem;
 }
+
+@media (min-width: 770px) {
+	body {
+		background-color: hsl(224, 35%, 11%);
+	}
+
+	.pod__background {
+		clip-path: polygon(
+			38% 0,
+			72% 0,
+			89% 4%,
+			65% 0%,
+			100% 0,
+			100% 0,
+			100% 50%,
+			100% 51%,
+			100% 100%,
+			85% 100%,
+			85% 34%,
+			38% 34%
+		);
+	}
+
+	.pod__overlay {
+		display: none;
+	}
+
+	.background__wrapper {
+		z-index: 4;
+	}
+
+	.pod__background img {
+		height: 868px;
+	}
+
+	.pod {
+		text-align: left;
+		align-items: flex-start;
+		background-color: hsl(224, 35%, 11%);
+	}
+
+	.pod__hero {
+		display: grid;
+	}
+
+	.pod__companies {
+		grid-row: 4;
+		margin-top: 5rem;
+		gap: 1.6rem;
+	}
+
+	.pod__company {
+		height: 1.8rem;
+	}
+
+	.pod__logo {
+		margin-left: 3rem;
+		margin-top: 10rem;
+	}
+
+	.pod__hero {
+		margin: 0 15rem 0 1.5rem;
+	}
+
+	.pod__title {
+		font-size: var(--fs-1);
+		margin-top: 7rem;
+	}
+
+	.pod__text {
+		font-size: var(--fs-2);
+		margin-left: -0.2rem;
+		margin-top: 1rem;
+	}
+
+	.form__container input {
+		width: 19.5rem;
+		height: 3.45rem;
+		margin-left: 2rem;
+		width: 88%;
+	}
+
+	.form__container {
+		position: relative;
+	}
+
+	.form__container button {
+		width: 12rem;
+		height: 2.85rem;
+		position: absolute;
+		top: 0.3rem;
+		right: 2.1rem;
+	}
+}
